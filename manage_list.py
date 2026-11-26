@@ -1,0 +1,11 @@
+subject = ["ENGLISH","JAVA","PYTHON"]
+
+print("original list:",subject)
+
+new = input("enter the subject:")
+subject.append(new)
+
+complete = input("remove the completed subject:")
+subject.remove(complete)
+
+print("updated list:",subject)

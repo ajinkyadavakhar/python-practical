@@ -1,0 +1,20 @@
+import math
+
+def calculate_area(shape, a, b=0):
+
+    if shape == "circle":
+        return math.pi * a * a
+
+    elif shape == "rectangle":
+        return a * b
+
+    elif shape == "triangle":
+        return 0.5 * a * b
+
+    else:
+        return "Invalid shape"
+
+
+print("Circle area:", calculate_area("circle", 5))
+print("Rectangle area:", calculate_area("rectangle", 4, 6))
+print("Triangle area:", calculate_area("triangle", 4, 5))
