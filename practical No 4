@@ -1,4 +1,4 @@
-message = input("enter kara message:")
+message = input("enter your message:")
 word = input("enter secret word :")
 
 if word in message:
